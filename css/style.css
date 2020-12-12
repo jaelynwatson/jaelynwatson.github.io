@@ -42,7 +42,9 @@ h1{
 }
 .social{
 	background-color: #FFDAB9;
-	padding-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 h3{
 	font-family: 'Fira Sans', sans-serif;
@@ -84,9 +86,10 @@ h4{
 	color: white;
 	padding-top: 15px;
 }
-.myForm{
-	align-content: center;
-	text-indent: 50%;
+.chat-popup{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*For Mobile phones*/
 @media only screen and (min-width:600px;){.fa{
