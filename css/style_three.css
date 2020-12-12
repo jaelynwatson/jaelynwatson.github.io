@@ -2,7 +2,7 @@
 font-family: 'Fira Sans', sans-serif; font-family: 'Sansita', sans-serif;*/
 
 /*For Desktop Only*/
-html{
+body{
 	background-color: #FF7F4F;
 }
 .navbar{
@@ -26,10 +26,8 @@ header{
 	color: #FFCBA4;
 }
 img{
+	display: block;
 	padding-left: 15px;
-	border: 5px solid;
-	border-radius: 10px;
-	border-color: white;
 	width: 400px;
 	height: 400px;
 	align-content: center;
